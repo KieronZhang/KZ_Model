@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2871E73711F5FD6AF8470CF2 /* Pods_KZ_Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E804C981818C497C39B64A3 /* Pods_KZ_Model.framework */; };
+		AE5464EC1F90CE1F00EBB955 /* TestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5464EB1F90CE1F00EBB955 /* TestUser.m */; };
+		AE74CD3D1E5CA962006E6521 /* TXT.txt in Resources */ = {isa = PBXBuildFile; fileRef = AE74CD3C1E5CA962006E6521 /* TXT.txt */; };
+		AEDC107A1FC1DDDD00752728 /* KZ_ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC10791FC1DDDD00752728 /* KZ_ModelFramework.framework */; };
+		AEEC9FE91E88FE2E008504AC /* KZ_TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */; };
+		AEF1754D1E0EAD50003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1754C1E0EAD50003D041A /* main.m */; };
+		AEF175501E0EAD50003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1754F1E0EAD50003D041A /* AppDelegate.m */; };
+		AEF175531E0EAD50003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175521E0EAD50003D041A /* ViewController.m */; };
+		AEF175561E0EAD50003D041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF175541E0EAD50003D041A /* Main.storyboard */; };
+		AEF175581E0EAD50003D041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF175571E0EAD50003D041A /* Assets.xcassets */; };
+		AEF1755B1E0EAD50003D041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF175591E0EAD50003D041A /* LaunchScreen.storyboard */; };
+		AEF1758A1E0EAF08003D041A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175891E0EAF08003D041A /* User.m */; };
+		AEF1758D1E0EAF2A003D041A /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1758C1E0EAF2A003D041A /* TestModel.m */; };
+		AEF175901E0EAF3E003D041A /* TestWeiboModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1758F1E0EAF3E003D041A /* TestWeiboModel.m */; };
+		AEF175931E0EAF61003D041A /* TestWeiboUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175921E0EAF61003D041A /* TestWeiboUserModel.m */; };
+		AEF175961E0EAF78003D041A /* TestWeiboBadgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175951E0EAF78003D041A /* TestWeiboBadgeModel.m */; };
+		AEF175991E0EAF8A003D041A /* TestWeiboExtendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175981E0EAF8A003D041A /* TestWeiboExtendModel.m */; };
+		AEF1759C1E0EAFA0003D041A /* TestWeiboVisibleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1759B1E0EAFA0003D041A /* TestWeiboVisibleModel.m */; };
+		AEF1759F1E0EAFAD003D041A /* TestWeiboImageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1759E1E0EAFAD003D041A /* TestWeiboImageInfoModel.m */; };
+		AEF175A21E0EAFBE003D041A /* TestWeiboImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175A11E0EAFBE003D041A /* TestWeiboImageModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E804C981818C497C39B64A3 /* Pods_KZ_Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0F8E6D3ABA00602B8B25FC /* Pods-KZ_Model.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Model.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Model/Pods-KZ_Model.release.xcconfig"; sourceTree = "<group>"; };
+		AE5464EA1F90CE1F00EBB955 /* TestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUser.h; sourceTree = "<group>"; };
+		AE5464EB1F90CE1F00EBB955 /* TestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUser.m; sourceTree = "<group>"; };
+		AE74CD3C1E5CA962006E6521 /* TXT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TXT.txt; sourceTree = "<group>"; };
+		AEDC10791FC1DDDD00752728 /* KZ_ModelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ModelFramework.framework; sourceTree = "<group>"; };
+		AEEC9FE71E88FE2E008504AC /* KZ_TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_TestModel.h; sourceTree = "<group>"; };
+		AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_TestModel.m; sourceTree = "<group>"; };
+		AEF175481E0EAD50003D041A /* KZ_Model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Model.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF1754C1E0EAD50003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEF1754E1E0EAD50003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEF1754F1E0EAD50003D041A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEF175511E0EAD50003D041A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEF175521E0EAD50003D041A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEF175551E0EAD50003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF175571E0EAD50003D041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF1755A1E0EAD50003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF1755C1E0EAD50003D041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF175881E0EAF08003D041A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AEF175891E0EAF08003D041A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		AEF1758B1E0EAF2A003D041A /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		AEF1758C1E0EAF2A003D041A /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		AEF1758E1E0EAF3E003D041A /* TestWeiboModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeiboModel.h; sourceTree = "<group>"; };
+		AEF1758F1E0EAF3E003D041A /* TestWeiboModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeiboModel.m; sourceTree = "<group>"; };
+		AEF175911E0EAF61003D041A /* TestWeiboUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeiboUserModel.h; sourceTree = "<group>"; };
+		AEF175921E0EAF61003D041A /* TestWeiboUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeiboUserModel.m; sourceTree = "<group>"; };
+		AEF175941E0EAF78003D041A /* TestWeiboBadgeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeiboBadgeModel.h; sourceTree = "<group>"; };
+		AEF175951E0EAF78003D041A /* TestWeiboBadgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeiboBadgeModel.m; sourceTree = "<group>"; };
+		AEF175971E0EAF8A003D041A /* TestWeiboExtendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeiboExtendModel.h; sourceTree = "<group>"; };
+		AEF175981E0EAF8A003D041A /* TestWeiboExtendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeiboExtendModel.m; sourceTree = "<group>"; };
+		AEF1759A1E0EAFA0003D041A /* TestWeiboVisibleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeiboVisibleModel.h; sourceTree = "<group>"; };
+		AEF1759B1E0EAFA0003D041A /* TestWeiboVisibleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeiboVisibleModel.m; sourceTree = "<group>"; };
+		AEF1759D1E0EAFAD003D041A /* TestWeiboImageInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeiboImageInfoModel.h; sourceTree = "<group>"; };
+		AEF1759E1E0EAFAD003D041A /* TestWeiboImageInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeiboImageInfoModel.m; sourceTree = "<group>"; };
+		AEF175A01E0EAFBE003D041A /* TestWeiboImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeiboImageModel.h; sourceTree = "<group>"; };
+		AEF175A11E0EAFBE003D041A /* TestWeiboImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeiboImageModel.m; sourceTree = "<group>"; };
+		C382324B808B9AACC6618EB6 /* Pods-KZ_Model.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Model.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Model/Pods-KZ_Model.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF175451E0EAD50003D041A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDC107A1FC1DDDD00752728 /* KZ_ModelFramework.framework in Frameworks */,
+				2871E73711F5FD6AF8470CF2 /* Pods_KZ_Model.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEF1753F1E0EAD50003D041A = {
+			isa = PBXGroup;
+			children = (
+				AEF1754A1E0EAD50003D041A /* KZ_Model */,
+				AEF175491E0EAD50003D041A /* Products */,
+				C764BA84CA8CCBD0FA52CABC /* Pods */,
+				B7C910998BB1D78CA70E6569 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF175491E0EAD50003D041A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF175481E0EAD50003D041A /* KZ_Model.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF1754A1E0EAD50003D041A /* KZ_Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1754E1E0EAD50003D041A /* AppDelegate.h */,
+				AEF1754F1E0EAD50003D041A /* AppDelegate.m */,
+				AEF175511E0EAD50003D041A /* ViewController.h */,
+				AEF175521E0EAD50003D041A /* ViewController.m */,
+				AE5464EA1F90CE1F00EBB955 /* TestUser.h */,
+				AE5464EB1F90CE1F00EBB955 /* TestUser.m */,
+				AEF175881E0EAF08003D041A /* User.h */,
+				AEF175891E0EAF08003D041A /* User.m */,
+				AEF1758B1E0EAF2A003D041A /* TestModel.h */,
+				AEF1758C1E0EAF2A003D041A /* TestModel.m */,
+				AEF1758E1E0EAF3E003D041A /* TestWeiboModel.h */,
+				AEF1758F1E0EAF3E003D041A /* TestWeiboModel.m */,
+				AEF175911E0EAF61003D041A /* TestWeiboUserModel.h */,
+				AEF175921E0EAF61003D041A /* TestWeiboUserModel.m */,
+				AEF175941E0EAF78003D041A /* TestWeiboBadgeModel.h */,
+				AEF175951E0EAF78003D041A /* TestWeiboBadgeModel.m */,
+				AEF175971E0EAF8A003D041A /* TestWeiboExtendModel.h */,
+				AEF175981E0EAF8A003D041A /* TestWeiboExtendModel.m */,
+				AEF1759A1E0EAFA0003D041A /* TestWeiboVisibleModel.h */,
+				AEF1759B1E0EAFA0003D041A /* TestWeiboVisibleModel.m */,
+				AEF1759D1E0EAFAD003D041A /* TestWeiboImageInfoModel.h */,
+				AEF1759E1E0EAFAD003D041A /* TestWeiboImageInfoModel.m */,
+				AEF175A01E0EAFBE003D041A /* TestWeiboImageModel.h */,
+				AEF175A11E0EAFBE003D041A /* TestWeiboImageModel.m */,
+				AEEC9FE71E88FE2E008504AC /* KZ_TestModel.h */,
+				AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */,
+				AE74CD3C1E5CA962006E6521 /* TXT.txt */,
+				AEF1757E1E0EADE8003D041A /* Model */,
+				AEF175541E0EAD50003D041A /* Main.storyboard */,
+				AEF175571E0EAD50003D041A /* Assets.xcassets */,
+				AEF175591E0EAD50003D041A /* LaunchScreen.storyboard */,
+				AEF1755C1E0EAD50003D041A /* Info.plist */,
+				AEF1754B1E0EAD50003D041A /* Supporting Files */,
+			);
+			path = KZ_Model;
+			sourceTree = "<group>";
+		};
+		AEF1754B1E0EAD50003D041A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1754C1E0EAD50003D041A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEF1757E1E0EADE8003D041A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEDC10791FC1DDDD00752728 /* KZ_ModelFramework.framework */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7C910998BB1D78CA70E6569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E804C981818C497C39B64A3 /* Pods_KZ_Model.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C764BA84CA8CCBD0FA52CABC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C382324B808B9AACC6618EB6 /* Pods-KZ_Model.debug.xcconfig */,
+				8A0F8E6D3ABA00602B8B25FC /* Pods-KZ_Model.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF175471E0EAD50003D041A /* KZ_Model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF175751E0EAD50003D041A /* Build configuration list for PBXNativeTarget "KZ_Model" */;
+			buildPhases = (
+				63EFABAF34EF237C5DA1ACBD /* [CP] Check Pods Manifest.lock */,
+				AEF175441E0EAD50003D041A /* Sources */,
+				AEF175451E0EAD50003D041A /* Frameworks */,
+				AEF175461E0EAD50003D041A /* Resources */,
+				838F86E3BD4AFD96B52EF582 /* [CP] Embed Pods Frameworks */,
+				656A991D243D947DA6605F33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZ_Model;
+			productName = KZ_Model;
+			productReference = AEF175481E0EAD50003D041A /* KZ_Model.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF175401E0EAD50003D041A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kieron Zhang";
+				TargetAttributes = {
+					AEF175471E0EAD50003D041A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TGTFTDLM8G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEF175431E0EAD50003D041A /* Build configuration list for PBXProject "KZ_Model" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF1753F1E0EAD50003D041A;
+			productRefGroup = AEF175491E0EAD50003D041A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF175471E0EAD50003D041A /* KZ_Model */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF175461E0EAD50003D041A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF1755B1E0EAD50003D041A /* LaunchScreen.storyboard in Resources */,
+				AE74CD3D1E5CA962006E6521 /* TXT.txt in Resources */,
+				AEF175581E0EAD50003D041A /* Assets.xcassets in Resources */,
+				AEF175561E0EAD50003D041A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63EFABAF34EF237C5DA1ACBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KZ_Model-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656A991D243D947DA6605F33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_Model/Pods-KZ_Model-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838F86E3BD4AFD96B52EF582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_Model/Pods-KZ_Model-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KZ_JSON/KZ_JSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KZ_JSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_Model/Pods-KZ_Model-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF175441E0EAD50003D041A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF175531E0EAD50003D041A /* ViewController.m in Sources */,
+				AEF175931E0EAF61003D041A /* TestWeiboUserModel.m in Sources */,
+				AEF1759C1E0EAFA0003D041A /* TestWeiboVisibleModel.m in Sources */,
+				AEF1758A1E0EAF08003D041A /* User.m in Sources */,
+				AEF175991E0EAF8A003D041A /* TestWeiboExtendModel.m in Sources */,
+				AEF175961E0EAF78003D041A /* TestWeiboBadgeModel.m in Sources */,
+				AEF1759F1E0EAFAD003D041A /* TestWeiboImageInfoModel.m in Sources */,
+				AE5464EC1F90CE1F00EBB955 /* TestUser.m in Sources */,
+				AEF175501E0EAD50003D041A /* AppDelegate.m in Sources */,
+				AEF1754D1E0EAD50003D041A /* main.m in Sources */,
+				AEF175901E0EAF3E003D041A /* TestWeiboModel.m in Sources */,
+				AEF1758D1E0EAF2A003D041A /* TestModel.m in Sources */,
+				AEEC9FE91E88FE2E008504AC /* KZ_TestModel.m in Sources */,
+				AEF175A21E0EAFBE003D041A /* TestWeiboImageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEF175541E0EAD50003D041A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF175551E0EAD50003D041A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF175591E0EAD50003D041A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF1755A1E0EAD50003D041A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF175731E0EAD50003D041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF175741E0EAD50003D041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF175761E0EAD50003D041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C382324B808B9AACC6618EB6 /* Pods-KZ_Model.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_Model/Model",
+				);
+				INFOPLIST_FILE = KZ_Model/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Model;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AEF175771E0EAD50003D041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0F8E6D3ABA00602B8B25FC /* Pods-KZ_Model.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_Model/Model",
+				);
+				INFOPLIST_FILE = KZ_Model/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Model;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF175431E0EAD50003D041A /* Build configuration list for PBXProject "KZ_Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF175731E0EAD50003D041A /* Debug */,
+				AEF175741E0EAD50003D041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF175751E0EAD50003D041A /* Build configuration list for PBXNativeTarget "KZ_Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF175761E0EAD50003D041A /* Debug */,
+				AEF175771E0EAD50003D041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF175401E0EAD50003D041A /* Project object */;
+}
