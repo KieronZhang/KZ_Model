@@ -8,10 +8,6 @@
 
 #import <KZ_ModelFramework/KZ_Model.h>
 
-@protocol User <NSObject>
-
-@end
-
 @interface User : KZ_Model
 
 @property (nonatomic, strong) NSString *username;

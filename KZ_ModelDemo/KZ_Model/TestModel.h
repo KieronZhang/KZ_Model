@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Kieron Zhang. All rights reserved.
 //
 
-#import <KZ_ModelFramework/KZ_Model.h>
+#import "KZ_Model.h"
 
 @interface TestModel : KZ_Model
 

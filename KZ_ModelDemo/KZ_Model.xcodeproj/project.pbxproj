@@ -10,7 +10,7 @@
 		2871E73711F5FD6AF8470CF2 /* Pods_KZ_Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E804C981818C497C39B64A3 /* Pods_KZ_Model.framework */; };
 		AE5464EC1F90CE1F00EBB955 /* TestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5464EB1F90CE1F00EBB955 /* TestUser.m */; };
 		AE74CD3D1E5CA962006E6521 /* TXT.txt in Resources */ = {isa = PBXBuildFile; fileRef = AE74CD3C1E5CA962006E6521 /* TXT.txt */; };
-		AEDC107A1FC1DDDD00752728 /* KZ_ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC10791FC1DDDD00752728 /* KZ_ModelFramework.framework */; };
+		AEA5EBF71FC2ABD7003D7BD1 /* KZ_ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBF61FC2ABD7003D7BD1 /* KZ_ModelFramework.framework */; };
 		AEEC9FE91E88FE2E008504AC /* KZ_TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */; };
 		AEF1754D1E0EAD50003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1754C1E0EAD50003D041A /* main.m */; };
 		AEF175501E0EAD50003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1754F1E0EAD50003D041A /* AppDelegate.m */; };
@@ -29,13 +29,29 @@
 		AEF175A21E0EAFBE003D041A /* TestWeiboImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175A11E0EAFBE003D041A /* TestWeiboImageModel.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AEDC10661FC1DB2300752728 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0A487ED5DC063060C3F1BC82 /* Pods-KZ_ModelFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_ModelFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_ModelFramework/Pods-KZ_ModelFramework.release.xcconfig"; sourceTree = "<group>"; };
 		3E804C981818C497C39B64A3 /* Pods_KZ_Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0F8E6D3ABA00602B8B25FC /* Pods-KZ_Model.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Model.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Model/Pods-KZ_Model.release.xcconfig"; sourceTree = "<group>"; };
+		95E33BC4C55A7711E32C1C28 /* Pods-KZ_ModelFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_ModelFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_ModelFramework/Pods-KZ_ModelFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		991E2796E9C08639C8E39357 /* Pods_KZ_ModelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_ModelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5464EA1F90CE1F00EBB955 /* TestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUser.h; sourceTree = "<group>"; };
 		AE5464EB1F90CE1F00EBB955 /* TestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUser.m; sourceTree = "<group>"; };
 		AE74CD3C1E5CA962006E6521 /* TXT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TXT.txt; sourceTree = "<group>"; };
-		AEDC10791FC1DDDD00752728 /* KZ_ModelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ModelFramework.framework; sourceTree = "<group>"; };
+		AEA5EBF61FC2ABD7003D7BD1 /* KZ_ModelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ModelFramework.framework; sourceTree = "<group>"; };
 		AEEC9FE71E88FE2E008504AC /* KZ_TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_TestModel.h; sourceTree = "<group>"; };
 		AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_TestModel.m; sourceTree = "<group>"; };
 		AEF175481E0EAD50003D041A /* KZ_Model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Model.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDC107A1FC1DDDD00752728 /* KZ_ModelFramework.framework in Frameworks */,
+				AEA5EBF71FC2ABD7003D7BD1 /* KZ_ModelFramework.framework in Frameworks */,
 				2871E73711F5FD6AF8470CF2 /* Pods_KZ_Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEA5EBF51FC2ABD7003D7BD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5EBF61FC2ABD7003D7BD1 /* KZ_ModelFramework.framework */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AEF1753F1E0EAD50003D041A = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +154,7 @@
 				AEEC9FE71E88FE2E008504AC /* KZ_TestModel.h */,
 				AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */,
 				AE74CD3C1E5CA962006E6521 /* TXT.txt */,
-				AEF1757E1E0EADE8003D041A /* Model */,
+				AEA5EBF51FC2ABD7003D7BD1 /* Model */,
 				AEF175541E0EAD50003D041A /* Main.storyboard */,
 				AEF175571E0EAD50003D041A /* Assets.xcassets */,
 				AEF175591E0EAD50003D041A /* LaunchScreen.storyboard */,
@@ -148,18 +172,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEF1757E1E0EADE8003D041A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AEDC10791FC1DDDD00752728 /* KZ_ModelFramework.framework */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B7C910998BB1D78CA70E6569 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3E804C981818C497C39B64A3 /* Pods_KZ_Model.framework */,
+				991E2796E9C08639C8E39357 /* Pods_KZ_ModelFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +186,8 @@
 			children = (
 				C382324B808B9AACC6618EB6 /* Pods-KZ_Model.debug.xcconfig */,
 				8A0F8E6D3ABA00602B8B25FC /* Pods-KZ_Model.release.xcconfig */,
+				95E33BC4C55A7711E32C1C28 /* Pods-KZ_ModelFramework.debug.xcconfig */,
+				0A487ED5DC063060C3F1BC82 /* Pods-KZ_ModelFramework.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -186,6 +205,7 @@
 				AEF175461E0EAD50003D041A /* Resources */,
 				838F86E3BD4AFD96B52EF582 /* [CP] Embed Pods Frameworks */,
 				656A991D243D947DA6605F33 /* [CP] Copy Pods Resources */,
+				AEDC10661FC1DB2300752728 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -450,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
