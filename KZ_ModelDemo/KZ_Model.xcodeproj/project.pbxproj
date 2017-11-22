@@ -10,7 +10,7 @@
 		2871E73711F5FD6AF8470CF2 /* Pods_KZ_Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E804C981818C497C39B64A3 /* Pods_KZ_Model.framework */; };
 		AE5464EC1F90CE1F00EBB955 /* TestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5464EB1F90CE1F00EBB955 /* TestUser.m */; };
 		AE74CD3D1E5CA962006E6521 /* TXT.txt in Resources */ = {isa = PBXBuildFile; fileRef = AE74CD3C1E5CA962006E6521 /* TXT.txt */; };
-		AEA5EBF71FC2ABD7003D7BD1 /* KZ_ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBF61FC2ABD7003D7BD1 /* KZ_ModelFramework.framework */; };
+		AE9A25F41FC5EB4700668BA7 /* KZ_ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25F31FC5EB4700668BA7 /* KZ_ModelFramework.framework */; };
 		AEEC9FE91E88FE2E008504AC /* KZ_TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */; };
 		AEF1754D1E0EAD50003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1754C1E0EAD50003D041A /* main.m */; };
 		AEF175501E0EAD50003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1754F1E0EAD50003D041A /* AppDelegate.m */; };
@@ -51,7 +51,7 @@
 		AE5464EA1F90CE1F00EBB955 /* TestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUser.h; sourceTree = "<group>"; };
 		AE5464EB1F90CE1F00EBB955 /* TestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUser.m; sourceTree = "<group>"; };
 		AE74CD3C1E5CA962006E6521 /* TXT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TXT.txt; sourceTree = "<group>"; };
-		AEA5EBF61FC2ABD7003D7BD1 /* KZ_ModelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ModelFramework.framework; sourceTree = "<group>"; };
+		AE9A25F31FC5EB4700668BA7 /* KZ_ModelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_ModelFramework.framework; sourceTree = "<group>"; };
 		AEEC9FE71E88FE2E008504AC /* KZ_TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_TestModel.h; sourceTree = "<group>"; };
 		AEEC9FE81E88FE2E008504AC /* KZ_TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_TestModel.m; sourceTree = "<group>"; };
 		AEF175481E0EAD50003D041A /* KZ_Model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Model.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5EBF71FC2ABD7003D7BD1 /* KZ_ModelFramework.framework in Frameworks */,
+				AE9A25F41FC5EB4700668BA7 /* KZ_ModelFramework.framework in Frameworks */,
 				2871E73711F5FD6AF8470CF2 /* Pods_KZ_Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +101,7 @@
 		AEA5EBF51FC2ABD7003D7BD1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AEA5EBF61FC2ABD7003D7BD1 /* KZ_ModelFramework.framework */,
+				AE9A25F31FC5EB4700668BA7 /* KZ_ModelFramework.framework */,
 			);
 			path = Model;
 			sourceTree = "<group>";
