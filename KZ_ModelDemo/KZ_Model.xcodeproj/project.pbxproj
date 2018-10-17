@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4BA08B84BE34089E719497B6 /* Pods_KZ_Model_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE18C93C671F059DBD66032 /* Pods_KZ_Model_iOS.framework */; };
-		AE905FB8208A30A9001D19AB /* KZ_Model_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE905FB7208A30A9001D19AB /* KZ_Model_iOS.framework */; };
-		AE905FBA208A30B0001D19AB /* KZ_Model_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE905FB9208A30B0001D19AB /* KZ_Model_macOS.framework */; };
 		AEC28F752089DBFD00198A0E /* iOS_TestWeiboImageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28F5F2089DBFD00198A0E /* iOS_TestWeiboImageInfoModel.m */; };
 		AEC28F762089DBFD00198A0E /* iOS_User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28F612089DBFD00198A0E /* iOS_User.m */; };
 		AEC28F772089DBFD00198A0E /* iOS_TestWeiboExtendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28F652089DBFD00198A0E /* iOS_TestWeiboExtendModel.m */; };
@@ -45,6 +43,8 @@
 		AEE675892089B6D000D34367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE675882089B6D000D34367 /* Assets.xcassets */; };
 		AEE6758C2089B6D000D34367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE6758A2089B6D000D34367 /* Main.storyboard */; };
 		AEE6758F2089B6D000D34367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE6758E2089B6D000D34367 /* main.m */; };
+		AEF94DA6217715C90063EE69 /* KZ_Model_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DA5217715C90063EE69 /* KZ_Model_iOS.framework */; };
+		AEF94DA8217715CB0063EE69 /* KZ_Model_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DA7217715CB0063EE69 /* KZ_Model_macOS.framework */; };
 		B143098AF027C33429E32C74 /* Pods_KZ_Model_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE60EAE7B4E021277D03E68A /* Pods_KZ_Model_macOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +53,6 @@
 		45B9A89C0C476495A9C7BA36 /* Pods-KZ_Model_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Model_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Model_macOS/Pods-KZ_Model_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5EE18C93C671F059DBD66032 /* Pods_KZ_Model_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Model_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6537D158F4EEACA0B29141A2 /* Pods-KZ_Model_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Model_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Model_iOS/Pods-KZ_Model_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AE905FB7208A30A9001D19AB /* KZ_Model_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Model_iOS.framework; sourceTree = "<group>"; };
-		AE905FB9208A30B0001D19AB /* KZ_Model_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Model_macOS.framework; sourceTree = "<group>"; };
 		AEC28F5E2089DBFD00198A0E /* iOS_TestWeiboUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_TestWeiboUserModel.h; sourceTree = "<group>"; };
 		AEC28F5F2089DBFD00198A0E /* iOS_TestWeiboImageInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS_TestWeiboImageInfoModel.m; sourceTree = "<group>"; };
 		AEC28F602089DBFD00198A0E /* iOS_TestWeiboModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_TestWeiboModel.h; sourceTree = "<group>"; };
@@ -121,6 +119,8 @@
 		AEE6758D2089B6D000D34367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEE6758E2089B6D000D34367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEE675902089B6D000D34367 /* KZ_Model_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_Model_macOS.entitlements; sourceTree = "<group>"; };
+		AEF94DA5217715C90063EE69 /* KZ_Model_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Model_iOS.framework; sourceTree = "<group>"; };
+		AEF94DA7217715CB0063EE69 /* KZ_Model_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Model_macOS.framework; sourceTree = "<group>"; };
 		C132A6F3AAE99BD4EDEB9EC3 /* Pods-KZ_Model_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Model_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Model_iOS/Pods-KZ_Model_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		DE60EAE7B4E021277D03E68A /* Pods_KZ_Model_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Model_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,8 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE905FB8208A30A9001D19AB /* KZ_Model_iOS.framework in Frameworks */,
 				4BA08B84BE34089E719497B6 /* Pods_KZ_Model_iOS.framework in Frameworks */,
+				AEF94DA6217715C90063EE69 /* KZ_Model_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE905FBA208A30B0001D19AB /* KZ_Model_macOS.framework in Frameworks */,
 				B143098AF027C33429E32C74 /* Pods_KZ_Model_macOS.framework in Frameworks */,
+				AEF94DA8217715CB0063EE69 /* KZ_Model_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +255,7 @@
 		AEE675B82089B73B00D34367 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AE905FB7208A30A9001D19AB /* KZ_Model_iOS.framework */,
+				AEF94DA5217715C90063EE69 /* KZ_Model_iOS.framework */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 		AEE675BB2089B78500D34367 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AE905FB9208A30B0001D19AB /* KZ_Model_macOS.framework */,
+				AEF94DA7217715CB0063EE69 /* KZ_Model_macOS.framework */,
 			);
 			path = Model;
 			sourceTree = "<group>";
